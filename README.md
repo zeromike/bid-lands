@@ -8,6 +8,7 @@ After pulling the repository, you could start from checking the demo under the f
 $ python demo.py
 
 After running, you could get the performance table printed in the console like:
+
 ANLP ||  KLD
 Campaign || MM || NM || SM || NTM || STM || MM || NM || SM || NTM || STM
 2259 || 7.2340 || 6.3751	5.6045	5.4486	5.0781	0.9165	0.9245	0.2770	0.9024	0.1806
