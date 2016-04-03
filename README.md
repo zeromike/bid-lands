@@ -5,7 +5,7 @@ This is a repository of the experiment code supporting the paper Functional Bid 
 #### Demo
 After pulling the repository, you could start from checking the demo under the folder of python by running:
 
-'$ python demo.py'
+$ python demo.py
 
 After running, you could get the performance table printed in the console like:
 
@@ -19,4 +19,4 @@ Note these results are produced from only a small part of the data (the first 30
 #### Large-scale Experiment
 For the large-scale experiment, please first check the GitHub project make-ipinyou-data for pre-processing the iPinYou data. After downloading the dataset, by simplying make all you can generate the standardised data. Please merge the make-ipinyou-data folder under /bid-lands.  You could run the experiment by running:
 
-'$ python main.py'
+$ python main.py
