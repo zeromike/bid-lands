@@ -9,14 +9,18 @@ $ python demo.py
 
 After running, you could get the performance table printed in the console like:
 
+'''
 ANLP ||  KLD
 Campaign || MM || NM || SM || NTM || STM || MM || NM || SM || NTM || STM
 2259 || 7.2340 || 6.3751	5.6045	5.4486	5.0781	0.9165	0.9245	0.2770	0.9024	0.1806
 overall || 7.2340 || 6.3751	5.6045	5.4486	5.0781	0.9165	0.9245	0.2770	0.9024	0.1806
+'''
 
 Note these results are produced from only a small part of the data (the first 300,000 lines for campaign 2259 in iPinYou).
 
 #### Large-scale Experiment
 For the large-scale experiment, please first check the GitHub project make-ipinyou-data for pre-processing the iPinYou data. After downloading the dataset, by simplying make all you can generate the standardised data. Please merge the make-ipinyou-data folder under /bid-lands.  You could run the experiment by running:
 
+'''
 $ python main.py
+'''
